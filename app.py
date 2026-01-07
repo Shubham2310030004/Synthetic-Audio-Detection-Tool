@@ -36,11 +36,12 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 @st.cache_resource
-def load_model():
+def 39
+():
     """Load pre-trained model."""
     model = AudioDetectionModel()
     try:
-        model.load('best_model.h5')
+        model.load(models/audio_cnn.h5.h5')
     except:
         st.warning('Model file not found. Training data required.')
     return model
