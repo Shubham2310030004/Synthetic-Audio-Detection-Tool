@@ -36,8 +36,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 @st.cache_resource
-def 39
-():
+def load_model():():
     """Load pre-trained model."""
     model = AudioDetectionModel()
     try:
