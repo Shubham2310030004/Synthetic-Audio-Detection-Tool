@@ -1,12 +1,12 @@
-numpy==1.24.3
-librosa==0.10.0
-scipy==1.11.2
-tensorflow==2.13.0
-keras==2.13.0
-streamlit==1.28.0
-matplotlib==3.7.2
-scikits.audiolab==0.11.0
-pandas==2.0.3
-waveform-data==0.1.0
-Pillow==10.0.0
-scikit-learn==1.3.0
+# Python 3.13+ Compatible Dependencies for Streamlit Cloud
+numpy>=1.26.0
+librosa>=0.10.0
+scipy>=1.11.0
+streamlit>=1.28.0
+tensorflow>=2.14.0
+keras>=3.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.8.0
+pandas>=2.1.0
+soundfile>=0.12.0
+Pillow>=10.0.0
